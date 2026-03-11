@@ -4,12 +4,11 @@ import math
 
 a = 0
 b = 1
-k = 800
 m = 0
-
+k= 1000
 for i in range(k):
-    x = np.random.uniform(low=a, high=b)
-    y = np.random.uniform(low=a, high=b)
+    x = np.random.uniform(a, b)
+    y = np.random.uniform(a, b)
 
     if (math.sqrt(x**2+y**2)<=1):
         m = m + 1
